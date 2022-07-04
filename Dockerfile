@@ -22,7 +22,7 @@ RUN apt-get update \
        wget \
        pip \
     && python3 -m pip install -U pip \
-    && python3 -m pip install Sphinx==2.4.4 Pillow \
+    && python3 -m pip install Sphinx==4.3.1 Pillow \
     && add-apt-repository ppa:ondrej/php \
     && apt-get update \
     && apt-get install -y \
